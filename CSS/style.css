@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.header {
+  background-color: #131313;
+  flex-grow: 0;
+  height: 83px;
+}
+
+.head-wrap {
+  display: flex;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+.gold-color {
+  color:#E3B873;
+}
+
+.nav-item {
+  display: inline;
+  margin: 0 15px;
+}
+
+.button {
+  text-transform: uppercase;
+  background-color: #E3B873;
+  color: #FFFFFF;
+  width: 207px;
+  height: 51px;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.rostov-section {
+  background-image: url("../images/imageland2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.rostov-content {
+  max-width: 1440px;
+  min-width: 1172px;
+  margin: 0 auto;
+}
+
+.rostov-title {
+  font-size: 40px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.rostov-text {
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.footer {
+  flex-grow: 0;
+}
