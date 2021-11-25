@@ -30,17 +30,6 @@ body * {
   text-transform: uppercase;
 }
 
-.header-content__button {
-  width: 161px;
-  height: 37px;
-}
-
-.rostov-content__button {
-  width: 207px;
-  height: 51px;
-  margin-right: 20px;
-}
-
 .header {
   background-color: #131313;
   flex-grow: 0;
@@ -68,6 +57,11 @@ body * {
 .header-navigation__link {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.header-content__button {
+  width: 161px;
+  height: 37px;
 }
 
 .main {
@@ -112,6 +106,12 @@ body * {
   font-size: 22px;
   line-height: 36px;
   color: #FFFFFF;
+}
+
+.rostov-content__button {
+  width: 207px;
+  height: 51px;
+  margin-right: 20px;
 }
 
 .gold-color {
