@@ -4,38 +4,70 @@ body {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1258px;
+  margin: 0 auto;
+}
+
+.button {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-style: italic;
+  font-size: 11px;
+  line-height: 15px;
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.header-content__button {
+  width: 161px;
+  height: 37px;
+}
+
+.rostov-content__button {
+  width: 207px;
+  height: 51px;
+  margin-right: 20px;
 }
 
 .header {
   background-color: #131313;
   flex-grow: 0;
-  height: 83px;
 }
 
-.head-wrap {
+.header-content {
+  font-size: 11px;
+  line-height: 15px;
   display: flex;
-  color: #FFFFFF;
   align-items: center;
-  justify-content: space-around;
-  height: 100%;
+  justify-content: space-between;
+  height: 83px;
   text-transform: uppercase;
 }
 
-.gold-color {
-  color:#E3B873;
+.header-navigation {
+  list-style: none;
+  display: flex;
 }
 
-.nav-item {
-  display: inline;
-  margin: 0 15px;
+.header-navigation__item {
+  margin-right: 47px;
 }
 
-.button {
-  text-transform: uppercase;
-  background-color: #E3B873;
+.header-navigation__link {
+  text-decoration: none;
   color: #FFFFFF;
-  width: 207px;
-  height: 51px;
 }
 
 .main {
@@ -44,28 +76,46 @@ body {
 
 .rostov-section {
   background-image: url("../images/imageland2.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
+  background-size: cover;
+  height: 707px;
+  padding-top: 194px;
+  position: relative;
+}
+
+.rostov-overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .7);
 }
 
 .rostov-content {
-  max-width: 1440px;
-  min-width: 1172px;
-  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  max-width: 1172px;
 }
 
-.rostov-title {
+.title {
+  margin: 0;
+  font-family: 'Yeseva One', 'Times New Roman', serif;
+  font-weight: normal;
   font-size: 40px;
-  color: #FFFFFF;
+  line-height: 53px;
   text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .rostov-text {
   font-size: 22px;
+  line-height: 36px;
   color: #FFFFFF;
+}
+
+.gold-color {
+  color:#E3B873;
 }
 
 .footer {
