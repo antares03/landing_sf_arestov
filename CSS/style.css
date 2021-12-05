@@ -30,6 +30,10 @@ body * {
   text-transform: uppercase;
 }
 
+:hover.button {
+  cursor: pointer;
+}
+
 .header {
   background-color: #131313;
   flex-grow: 0;
